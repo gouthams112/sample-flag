@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <button id="loginBtn" onclick="navigateTo('login.html')">Login</button>
+    <button id="signupBtn" onclick="navigateTo('signup.html')">Signup</button>
+    <button id="logoutBtn" onclick="logout()" style="display: none;">Logout</button>
+  </nav>
+
+  <main>
+    <h1>Welcome to the Home Page</h1>
+    <p id="userGreeting"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
